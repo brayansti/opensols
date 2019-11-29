@@ -1,8 +1,8 @@
 <template>
   <div class="about">
-    <h1>
-      Bienvenido, acá puedes consultar los usuarios
-    </h1>
+    <h2>
+      Desde acá puedes ver los usuarios
+    </h2>
     <UsersTable />
   </div>
 </template>
@@ -13,7 +13,7 @@
 import UsersTable from '@/components/UsersTable.vue'
 
 export default {
-  name: 'home',
+  name: 'users',
   components: {
     UsersTable
   },

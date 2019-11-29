@@ -2,10 +2,11 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/users">Usuarios</router-link>
     </div>
     <!-- ↓↓ Here is the content ↓↓ -->
     <router-view/>
+    <!-- Here ends the content -->
   </div>
 </template>
 
