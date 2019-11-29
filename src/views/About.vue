@@ -1,7 +1,9 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
-    <UsersTable msg="Welcome to Your Vue.js App"/>
+    <h1>
+      Bienvenido, acá puedes consultar los usuarios
+    </h1>
+    <UsersTable />
   </div>
 </template>
 
@@ -14,6 +16,6 @@ export default {
   name: 'home',
   components: {
     UsersTable
-  }
+  },
 }
 </script>
