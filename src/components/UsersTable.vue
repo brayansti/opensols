@@ -64,10 +64,9 @@ export default {
           this.users = response.data.results
           this.printRows();
           this.tableLoading = false;
-          console.log(response.data.results);
         })
         .catch(error => {
-          console.log(error)
+          alert(error)
         });
     },
     printRows() {
