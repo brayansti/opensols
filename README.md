@@ -1,4 +1,4 @@
-# 04-opensols
+# Opensols
 
 ## Project setup
 ```
