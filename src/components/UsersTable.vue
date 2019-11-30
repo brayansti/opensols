@@ -5,7 +5,9 @@
       :rows="rows"
       :search-options="{enabled: true}"
       :isLoading="tableLoading"
-      >
+      :pagination-options="{
+        enabled: true,
+      }" >
     </vue-good-table>
     <!-- <h1> TEST </h1> -->
   </div>
@@ -57,7 +59,7 @@ export default {
       // Parameters to get Data
       const parameters = {
         url: 'https://randomuser.me/api/',
-        results: '300'
+        results: '1500'
       };
       axios.get(`${parameters.url}?results=${parameters.results}`)
         .then(response => {
